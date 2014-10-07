@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         
-        // Button, change text & color
+        // Button, change text & button color
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
         mailButton.backgroundColor = UIColor.blueColor()
         
